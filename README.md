@@ -109,15 +109,6 @@ pip install aiogram aiohttp python-decouple
 
 ## Шаг 5: Подготовка кода бота
 
-Предположим, у вас есть файл с кодом бота, например `hr_bot.py`. Если его нет, создайте базовый пример:
-
-1. Создайте файл `hr_bot.py` в корневой директории:
-
-   ```bash
-   touch hr_bot.py  # Для macOS/Linux
-   echo. > hr_bot.py  # Для Windows
-   ```
-
 ### 5.1. Настройка HR_IDS
 
 1. В коде найдите строку:
