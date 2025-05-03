@@ -192,7 +192,6 @@ async def process_whatsapp_check(callback: types.CallbackQuery, state: FSMContex
     }
     save_candidate_data(data)
     await callback.message.reply(
-        callback.from_user.id,
         "Хорошо! Я вышлю приглашение через WhatsApp. Спасибо за уделенное время, до встречи!"
     )
     await state.clear()
